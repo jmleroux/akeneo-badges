@@ -1,7 +1,4 @@
 services:
-    jmleroux.micro_rest.version:
-        class: JmLeroux\Components\Core\Version
-
     akeneo.badge.factory:
         class: '%badge_factory%'
 
