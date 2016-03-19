@@ -1,0 +1,6 @@
+app/config/parameters.yml
+/bin/*
+!bin/console
+/vendor/
+composer.lock
+.idea

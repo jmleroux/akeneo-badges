@@ -1,0 +1,24 @@
+{
+    "name": "jmleroux/akeneo-badges",
+    "type": "project",
+    "license": "MIT",
+    "description": "Symfony micro kernel application for rest",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "symfony/framework-bundle": "~3.0",
+        "symfony/monolog-bundle": "~2.4",
+        "badges/poser": "~1.2"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0",
+        "henrikbjorn/phpspec-code-coverage": "^2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
